@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Special Proposal</title>
+  <style>
+    body {
+      text-align: center;
+      background: pink;
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      color: red;
+      margin-top: 20%;
+      font-size: 40px;
+    }
+    button {
+      font-size: 20px;
+      padding: 10px 20px;
+      margin-top: 20px;
+      border: none;
+      border-radius: 10px;
+      background: red;
+      color: white;
+    }
+  </style>
+</head>
+<body>
+  <h1>💖 khanak, Will You Be Mine Forever? 💖</h1>
+  <button>Yes 💕</button>
+</body>
+</html>
