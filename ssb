@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Special Proposal</title>
+  <style>
+    body {
+      text-align: center;
+      background: pink;
+      font-family: Arial, sans-serif;
+    }
+    h1 {
+      color: red;
+      margin-top: 20px;
+      font-size: 40px;
+    }
+    .btn {
+      font-size: 20px;
+      padding: 10px 20px;
+      margin: 20px;
+      border: none;
+      border-radius: 10px;
+      color: white;
+      cursor: pointer;
+    }
+    .yes {
+      background: red;
+    }
+    .no {
+      background: gray;
+      position: absolute;
+    }
+    img {
+      width: 200px;
+      margin-top: 20px;
+      border-radius: 15px;
+    }
+  </style>
+</head>
+<body>
+  <h1>💖 Khanak, Will You Be Mine Forever? 💖</h1>
+  
+  <!-- Example photo -->
+  <img src="https://i.imgur.com/dZ5wRtb.png" alt="Love Image">
+  
+  <br>
+  <button class="btn yes">Yes 💕</button>
+  <button class="btn no" id="noBtn">No 😅</button>
+
+  <script>
+    // Make the NO button move away when she tries to click
+    const noBtn = document.getElementById("noBtn");
+    noBtn
